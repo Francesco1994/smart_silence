@@ -1,0 +1,34 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#FF6320</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">#FF773C</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">#F14900</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <style name="AppThemeTransparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@android:color/transparent</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@android:color/transparent</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="foodRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:width">22dip</item>
+    </style>
+
+</resources>

@@ -1,0 +1,65 @@
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_viewRecensioni"
+    android:layout_gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="0dp"
+    android:shape="rectangle"
+    card_view:cardUseCompatPadding="true"
+    card_view:elevation="0dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/photoProfile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="9dp"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paola Roxana Vasquez"
+                android:textSize="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="45dp"/>
+
+            <RatingBar
+                android:id="@+id/ratingBarReviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="0.2"
+                android:progressTint="#FF9500"
+                android:isIndicator="true"
+                android:layout_alignParentEnd="true"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recensione utente"
+            android:layout_marginLeft="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="-10dp"/>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="17dp" />
+
+    <android.support.percent.PercentRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/annulla"
+            app:layout_widthPercent="45%"
+            app:layout_marginLeftPercent="50%"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text=" Chiudi "
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/attivaGPS"
+            app:layout_widthPercent="45%"
+            android:layout_marginLeft="15dp"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="Attiva GPS "
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp" />
+
+    </android.support.percent.PercentRelativeLayout>
+</LinearLayout>

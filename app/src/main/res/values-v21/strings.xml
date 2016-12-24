@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SmartSilence</string>
+    <string name="settings">Impostazioni</string>
+    <string name="map">Mappa</string>
+
+    <string name="active_app">Attiva App</string>
+    <string name="disable_app">Disattiva App</string>
+    <string name="start_gps">Per una maggiore precisione della posizione attiva il GPS e premi su Attiva App, altrimenti continua con la tua connessione dati.</string>
+
+    <string name="favorite">I tuoi posti</string>
+
+    <string name="adaptation">Seleziona l\'adattamento del cellulare</string>
+    <string name="silent">Silenzioso</string>
+    <string name="vibration">Vibrazione</string>
+
+    <string name="place">In quali posti vuoi che il cellulare si adatti?</string>
+    <string name="church">Chiese</string>
+    <string name="museum">Musei</string>
+    <string name="schools">Scuole</string>
+    <string name="university">Università</string>
+    <string name="hospitals">Ospedali</string>
+
+    <string name="open_now">Ora aperto</string>
+    <string name="closed_now">Ora chiuso</string>
+
+    <string name="details">Dettagli</string>
+    <string name="share_app">Condividi SmartSilence</string>
+    <string name="share_app_message">Stanco di impostare il silenzioso o peggio ancora dimenticartene? Nessun problema, ora c\'è SmartSilence! https://play.google.com/store/apps/details?id=com.smartsilence.app.smartsilence</string>
+
+    <string name="call">Chiama</string>
+    <string name="website">Sito Web</string>
+    <string name="share">Condividi</string>
+    <string name="share_message_place">Vorrei condividere con te questo posto</string>
+    <string name="share_with">Condividi con...</string>
+    <string name="no_number">Nessun numero</string>
+    <string name="no_website">Nessun sito web</string>
+    <string name="no_website_error">Questa struttura non ha ancora un sito web da visualizzare</string>
+    <string name="no_rating">Ancora nessuna valutazione su questo luogo</string>
+    <string name="google_maps">Apri in Google Maps</string>
+    <string name="ranking_message">Valutazione totale</string>
+
+    <string name = "banner_ad_unit_id" > ca-app-pub-1026366199199479/9519133744 </string>
+</resources>
