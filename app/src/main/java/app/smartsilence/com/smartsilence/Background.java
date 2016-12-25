@@ -141,7 +141,7 @@ public class Background extends Service implements GoogleApiClient.ConnectionCal
         }
 
         String stringUrl = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=" +
-                            +location.getLatitude() + "," + location.getLongitude() +
+                            + location.getLatitude() + "," + location.getLongitude() +
                             "&radius=30" +
                             "&sensor=false" +
                             "&types=" + chieseUrl + muesoUrl + scuolaUrl + universitaUrl + ospedaleUrl +
@@ -168,7 +168,6 @@ public class Background extends Service implements GoogleApiClient.ConnectionCal
         protected void onPostExecute(String result)
         {
             if (result != null) {
-
                 try {
                     JSONObject jsonRootObject = new JSONObject(result);
                     String jsonArray = jsonRootObject.getString("status");
